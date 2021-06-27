@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+body {
+  background-color: rgb(0, 0, 0);
+  color:rgb(7, 154, 190)
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.video-player {
+  height: 68vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.home {
+  text-align: center;
+  font-size: 2rem;
+  color: hotpink
+}
+
+.buttons {
+  width:  50vw;
+  margin:auto;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+
+.music-button{
+  margin: 1.5rem .5rem;
+  background-color: hotpink;
+  border: 2px solid rgb(7, 154, 190);
+}
+.youtube {
+  display: flex;
+  /* width: fit-content; */
+  justify-content: center;
+  border: 2px solid rgb(7, 154, 190);
+  padding: 0;
+}
+button {
+  border: 1px solid hotpink;
+  background-color: rgb(7, 154, 190);
   color: white;
+  font-size: 1.2rem;
+  border-radius: 1.5rem;
+  padding: .4rem;
 }
-
-.App-link {
-  color: #61dafb;
+footer {
+  float: right;
+  margin-right: 6rem;
 }
+nav {
+  height: 12vh;
+  background-color: rgba(7, 153, 190);
+  color: black
+}
+h1{
+  color: hotpink
+}
+.video {
+  padding-bottom: auto;
+  
+}
+.about {
+  border: 2px solid hotpink;
+  float:right;
+  margin-right: 4rem;
+  margin-top: 1rem;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
